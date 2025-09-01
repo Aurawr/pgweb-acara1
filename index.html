@@ -5,22 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acara 1 | HTML CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <style>
+        .h{
+            text-align: center;
+        }
+        h1{
+            color: #9A3F3F;
+        }
+        h3{ 
+            color:orange;
+        }
+        p{
+            text-indent: 30px;
+            text-align: justify;
+        }
+        #p1{
+            color: brown;
+        }
+        .p1{
+            color:chocolate;
+        }
+        ol{
+            color: blue;
+        }
+    </style> -->
 </head>
 
 <body>
     <main>
         <!-- <h2 class="judul">Jawa Timur</h2> -->
         <!-- Judul -->
-        <h1 style="color:#9A3F3F;" align="center">Kota Malang</h1>
-        <h3 align="center">Jawa Timur</h3>
+        <h1>Kota Malang</h1>
+        <h3>Jawa Timur</h3>
+        <a href="https://malangkota.go.id/" target="_blank" title="Pemkot Kota Malang Website">Portal Kota Malang</a>
 
+        <hr>
         <!-- Deskripsi -->
          <h4>Deskripsi</h4>
-        <p align="justify">Kota Malang adalah sebuah kota yang terletak di Provinsi Jawa Timur, Indonesia.
+        <p id="p1">Kota Malang adalah sebuah kota yang terletak di Provinsi Jawa Timur, Indonesia.
             Kota ini merupakan kota terbesar kedua di Jawa Timur setelah Surabaya, dan kota
             terbesar ke-12 di Indonesia. Kota ini didirikan pada masa Pemerintahan Belanda
             pada 1 April 1914 dengan E.K Broeveldt sebagai wali kota pertama.</p>
-        <p align="justify">Kota Malang dikenal baik sebagai Pusat kota pendidikan. Kota ini memiliki berbagai
+        <p class="p1">Kota Malang dikenal baik sebagai Pusat kota pendidikan. Kota ini memiliki berbagai
             perguruan tinggi terbaik seperti Universitas Brawijaya,Universitas Negeri Malang,
             UIN Maulana Malik Ibrahim Malang, dan Politeknik Negeri Malang. Selain itu, kota ini
             merupakan kota pariwisata karena alamnya yang menawan yang dikelilingi oleh pegunungan
@@ -30,8 +58,8 @@
         <hr>
         <!-- Tabel -->
         <h4>Penduduk</h4>
-        <table border="1" width="90%" cellspacing="0" align="center">
-            <tr bgcolor="#C1856D" style="height: 30px;">
+        <table align="center">
+            <tr style="height: 30px;">
                 <th>Penduduk</th>
                 <th>Jumlah</th>
             </tr>
@@ -64,24 +92,18 @@
         <!-- Galeri -->
          <h4>Galeri</h4>
          <div class="galeri">
-         <img src="img/Idjen.jpg" alt="Idjen Boulevard">
-         <img src="img/Balai_Kota.jpg" alt="Balai Kota Malang">
-         <img src="img/Gereja.jpg" alt="Katedral">
+         <img src="img/Idjen.jpg" alt="Idjen Boulevard" title="Idjen Boulevard">
+         <img src="img/Balai_Kota.jpg" alt="Balai Kota Malang" title="Balai Kota Malang">
+         <img src="img/Gereja.jpg" alt="Katedral" title="Katedral">
          </div>
 
-         <style>
-            .galeri {
-                display: flex;
-                gap: 15px;
-                justify-content: center;
-            }
-            .galeri img {
-                width: 200px;
-                height: 250px;
-                object-fit: cover;
-            }
-         </style>
-    </main>
+         <hr>
+         <iframe width="752" height="432" src="https://www.youtube.com/embed/DD1thThXu_Q"
+         title="Kota Malang 2020 | Drone View | Aerial Cityscape" frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+         gyroscope; picture-in-picture; web-share" 
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </main>
 </body>
 
 </html>

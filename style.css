@@ -1,0 +1,55 @@
+h4 {
+    color: blue;
+}
+
+h1 {
+    color: #9A3F3F;
+    text-align: center;
+}
+
+h3 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#p1 {
+    color: brown;
+}
+
+.p1 {
+    color: chocolate;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.galeri {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.galeri img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
